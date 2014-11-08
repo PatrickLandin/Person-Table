@@ -12,11 +12,4 @@ class Person {
     
     var name = "Patrick L. Landin"
     
-    init (Name: String) {
-        self.name = Name
-    }
-    
-    func returnName() -> String {
-        return name
-    }
 }

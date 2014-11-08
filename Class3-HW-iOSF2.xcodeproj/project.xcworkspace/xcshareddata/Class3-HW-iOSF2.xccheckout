@@ -12,20 +12,24 @@
 	<dict>
 		<key>4568C3A4D88FF14473C8746D04BCC3ADA4140091</key>
 		<string>https://github.com/PatrickLandin/Multiple-Views.git</string>
+		<key>FA054FC1D202FB19CC55B01FF12D8A25696046A3</key>
+		<string>https://github.com/PatrickLandin/Person-Table.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>untitled folder/Class3-HW-iOSF2/Class3-HW-iOSF2.xcodeproj</string>
+	<string>Class3-HW-iOSF2.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4568C3A4D88FF14473C8746D04BCC3ADA4140091</key>
-		<string>../../../..</string>
+		<string>../../..</string>
+		<key>FA054FC1D202FB19CC55B01FF12D8A25696046A3</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/PatrickLandin/Multiple-Views.git</string>
+	<string>https://github.com/PatrickLandin/Person-Table.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4568C3A4D88FF14473C8746D04BCC3ADA4140091</string>
+	<string>FA054FC1D202FB19CC55B01FF12D8A25696046A3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>4568C3A4D88FF14473C8746D04BCC3ADA4140091</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Foundations2</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA054FC1D202FB19CC55B01FF12D8A25696046A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Class3-HW-iOSF2</string>
 		</dict>
 	</array>
 </dict>

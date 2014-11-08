@@ -14,6 +14,7 @@
 		EC56070D1A09A5BE00488BD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC56070B1A09A5BE00488BD6 /* LaunchScreen.xib */; };
 		EC5607191A09A5BE00488BD6 /* Class3_HW_iOSF2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5607181A09A5BE00488BD6 /* Class3_HW_iOSF2Tests.swift */; };
 		EC5607241A09A61A00488BD6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5607231A09A61A00488BD6 /* Person.swift */; };
+		EC7AB02C1A0D9C8700EA669C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7AB02B1A0D9C8700EA669C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		EC5607181A09A5BE00488BD6 /* Class3_HW_iOSF2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class3_HW_iOSF2Tests.swift; sourceTree = "<group>"; };
 		EC5607221A09A60A00488BD6 /* HW3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HW3.playground; sourceTree = "<group>"; };
 		EC5607231A09A61A00488BD6 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EC7AB02B1A0D9C8700EA669C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				EC5607021A09A5BE00488BD6 /* AppDelegate.swift */,
+				EC7AB02B1A0D9C8700EA669C /* DetailViewController.swift */,
 				EC5607041A09A5BE00488BD6 /* ViewController.swift */,
 				EC5607231A09A61A00488BD6 /* Person.swift */,
 				EC5607061A09A5BE00488BD6 /* Main.storyboard */,
@@ -220,6 +223,7 @@
 				EC5607241A09A61A00488BD6 /* Person.swift in Sources */,
 				EC5607051A09A5BE00488BD6 /* ViewController.swift in Sources */,
 				EC5607031A09A5BE00488BD6 /* AppDelegate.swift in Sources */,
+				EC7AB02C1A0D9C8700EA669C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				EC56071E1A09A5BE00488BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC56071F1A09A5BE00488BD6 /* Build configuration list for PBXNativeTarget "Class3-HW-iOSF2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				EC5607211A09A5BE00488BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

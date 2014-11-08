@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -17,13 +17,17 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.dataSource = self
-        var addPerson1 = Person(Name: "A")
-        var addPerson2 = Person(Name: "B")
-        var addPerson3 = Person(Name: "C")
-        var addPerson4 = Person(Name: "D")
+        self.title = "Men that are all of the bass"
         
-        var me = Person(Name: "Patrick L. Landin")
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
+        
+        var addPerson1 = Person()
+        var addPerson2 = Person()
+        var addPerson3 = Person()
+        var addPerson4 = Person()
+        
+        var me = Person()
         self.people.append(me)
         
         self.people.append(addPerson1)
@@ -34,6 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         addPerson3.name = "Rufferford T. Woofinghausen"
         self.people.append(addPerson4)
         addPerson4.name = "Poppington H. Bostwick"
+        
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -48,4 +53,15 @@ class ViewController: UIViewController, UITableViewDataSource {
         cell.textLabel.text = PersonToDisplay.name
         return cell
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "SHOW_DETAIL" {
+            let detailViewController = segue.destinationViewController as DetailViewController
+            let selectedIndexPath = self.tableView.indexPathForSelectedRow()
+            var personToPass = self.people[selectedIndexPath!.row]
+            detailViewController.selectedPerson = personToPass
+        }
+    }
+    
 }
